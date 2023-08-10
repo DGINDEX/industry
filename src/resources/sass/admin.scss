@@ -1,0 +1,66 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+//sweetalert
+@import '~@sweetalert2/theme-bootstrap-4/bootstrap-4.scss';
+
+
+.card-header {
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 0;
+  background-color: rgba(0, 0, 0, 0.03);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.card-header:first-child {
+  border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
+}
+
+.card-footer {
+  padding: 0.75rem 1.25rem;
+  background-color: rgba(0, 0, 0, 0.03);
+  border-top: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.form-control-inline {
+  min-width: 0;
+  width: auto !important;
+  display: inline !important;
+}
+
+.modal-dialog {
+  width: 90%;
+  max-width: 90%;
+}
+
+.modal-dialog-delete {
+  width: 30%;
+}
+
+.ios-showing-modal {
+  position: fixed;
+  overflow: hidden;
+  overflow-y: auto;
+  height: 100%;
+  width: 100%;
+  -webkit-overflow-scrolling: touch;
+}
+
+.pagination{
+  justify-content: flex-end;
+}
+
+.images-table img {
+  width: 200px;
+  height: auto;
+}
+
+.login-logo, .register-logo {
+    font-size: 22px;
+}
